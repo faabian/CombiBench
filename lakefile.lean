@@ -17,6 +17,7 @@ require mathlib from git
 
 @[default_target]
 lean_lib «CombiBench» where
+  globs := #[.submodules `CombiBench]
   -- add any library configuration options here
 
 lean_exe «decls» where
